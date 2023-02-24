@@ -1,6 +1,6 @@
 # Java 8 Functions
 
-lambda function
+lambda function     
 Functional Interface
 Stream API 
 1) Filter
