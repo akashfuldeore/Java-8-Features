@@ -29,6 +29,7 @@ public class useFilter {
 		//Using Filter
 		List<Integer> a1 = l.stream().filter(i -> i%2==0).collect(Collectors.toList());
 		System.out.println(a1);
+		
 	}
 
 }
