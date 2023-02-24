@@ -31,6 +31,10 @@ public class employeeList {
 		
 		//Q.1  How many male and female employees are there in the organization?
 		//Q.2  Print the name of all departments in the organization?
+		   employeeList.stream().map(Employee::getDepartment).distinct().forEach(System.out::println);
+		   System.out.println("===================================");
+		   employeeList.stream().map(Employee::getGender).distinct().forEach(System.out::println);
+		
 	    //Q.3  What is the average age of male and female employees?
 		//Q.4  Get the details of highest paid employee in the organization?
 		//Q.5  Get the names of all employees who have joined after 2015?
